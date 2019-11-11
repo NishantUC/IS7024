@@ -12085,11 +12085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prabh\\Documents\\GitHub\\IS7012\\LicenseOwners\\LicenseOwners.csproj",
+      "projectUniqueName": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\NishantPrabhudesai\\LicenseOwners\\LicenseOwners.csproj",
       "projectName": "LicenseOwners",
-      "projectPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7012\\LicenseOwners\\LicenseOwners.csproj",
+      "projectPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\NishantPrabhudesai\\LicenseOwners\\LicenseOwners.csproj",
       "packagesPath": "C:\\Users\\prabh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7012\\LicenseOwners\\obj\\",
+      "outputPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\NishantPrabhudesai\\LicenseOwners\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
