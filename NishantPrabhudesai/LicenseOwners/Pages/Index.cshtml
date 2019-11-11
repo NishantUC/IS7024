@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var businessLicenses = (QuickType.BusinessLicenses[])ViewData["BusinessLicenses"];
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <!--<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>-->
+
+
+        <table>
+            @{ 
+                foreach(QuickType.BusinessLicenses businessLicense in businessLicenses)
+                {
+                        <tr>
+                            <td>@businessLicense.AccountNumber</td>
+                            <td>@businessLicense.Address</td>
+                            <td>@businessLicense.BusinessActivity</td>
+                            <td>@businessLicense.LicenseDescription</td>
+                            <td>@businessLicense.LicenseNumber</td>
+                            <td>@businessLicense.City</td>
+                            <td>@businessLicense.State</td>
+                            <td>@businessLicense.Address</td>
+                        </tr>
+                }
+            }
+        </table>
+    </div>
