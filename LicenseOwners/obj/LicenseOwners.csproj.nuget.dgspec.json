@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj": {}
+    "/Users/ruellamoras/Desktop/NishantUC/IS7024/LicenseOwners/LicenseOwners.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj": {
+    "/Users/ruellamoras/Desktop/NishantUC/IS7024/LicenseOwners/LicenseOwners.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
+        "projectUniqueName": "/Users/ruellamoras/Desktop/NishantUC/IS7024/LicenseOwners/LicenseOwners.csproj",
         "projectName": "LicenseOwners",
-        "projectPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
-        "packagesPath": "C:\\Users\\prabh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\obj\\",
+        "projectPath": "/Users/ruellamoras/Desktop/NishantUC/IS7024/LicenseOwners/LicenseOwners.csproj",
+        "packagesPath": "/Users/ruellamoras/.nuget/packages/",
+        "outputPath": "/Users/ruellamoras/Desktop/NishantUC/IS7024/LicenseOwners/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\prabh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ruellamoras/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,13 +59,23 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
