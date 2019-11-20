@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "5c8ba217fe1d4c7004dddaea3eac7af88348b72a"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "12.0.3",
+          "bootstrap": "4.3.1"
         },
         "runtime": {
           "LicenseOwners.dll": {}
@@ -36,6 +37,13 @@
           "LicenseOwners.dll": {}
         }
       },
+      "bootstrap/4.3.1": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.14.0"
+        }
+      },
+      "jQuery/3.0.0": {},
       "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -47,6 +55,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "popper.js/1.14.0": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
@@ -3243,12 +3252,33 @@
       "serviceable": false,
       "sha512": ""
     },
+    "bootstrap/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lrVBeG2vmfwsHJuwSzeXz+1hPn/374vXDOAusU50vzljEWcFOFtif3wzIJJqfqQRHs2RnY0xttZ0Zv5JX4BFGg==",
+      "path": "bootstrap/4.3.1",
+      "hashPath": "bootstrap.4.3.1.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "popper.js/1.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPxZdXknelgQ015wey7GMZvsVdt/SyEmHYORhEp5k/uF9MUk9DPtkn+6dR98fud2hVWJjZm9KKr474+r7WQt+A==",
+      "path": "popper.js/1.14.0",
+      "hashPath": "popper.js.1.14.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
