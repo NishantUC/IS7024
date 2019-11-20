@@ -1,4 +1,4 @@
-﻿namespace QuickTypeLicense
+﻿namespace LicenseDetails
 {
     using System;
     using System.Globalization;

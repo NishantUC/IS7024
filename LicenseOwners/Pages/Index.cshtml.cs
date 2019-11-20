@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Net;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using QuickTypeOwners;
-using QuickTypeLicense;
+using OwnersDetails;
+using LicenseDetails;
 using LicenseOwners.Models;
 
 namespace LicenseOwners.Pages
