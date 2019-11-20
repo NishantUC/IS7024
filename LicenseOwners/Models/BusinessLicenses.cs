@@ -1,8 +1,6 @@
 ﻿namespace QuickTypeLicense
 {
     using System;
-    using System.Collections.Generic;
-
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
@@ -13,15 +11,12 @@
         public string Id { get; set; }
 
         [JsonProperty("license_id")]
-        
         public long LicenseId { get; set; }
 
         [JsonProperty("account_number")]
-        
         public long AccountNumber { get; set; }
 
         [JsonProperty("site_number")]
-        
         public long SiteNumber { get; set; }
 
         [JsonProperty("legal_name")]
@@ -40,26 +35,21 @@
         public string State { get; set; }
 
         [JsonProperty("zip_code")]
-        
         public long ZipCode { get; set; }
 
         [JsonProperty("ward")]
-        
         public long Ward { get; set; }
 
         [JsonProperty("precinct")]
-        
         public long Precinct { get; set; }
 
         [JsonProperty("ward_precinct")]
         public string WardPrecinct { get; set; }
 
         [JsonProperty("police_district")]
-        
         public long PoliceDistrict { get; set; }
 
         [JsonProperty("license_code")]
-        
         public long LicenseCode { get; set; }
 
         [JsonProperty("license_description")]
@@ -104,7 +94,6 @@
         public string LicenseStatus { get; set; }
 
         [JsonProperty("ssa")]
-        
         public long Ssa { get; set; }
 
         [JsonProperty("latitude")]

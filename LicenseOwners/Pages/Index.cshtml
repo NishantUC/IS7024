@@ -2,57 +2,43 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
-    var businessLicenses = (QuickTypeLicense.BusinessLicenses[])ViewData["BusinessLicenses"];
-    var businessOwners = (QuickTypeOwners.BusinessOwners[])ViewData["BusinessOwners"];
+    List<LicenseOwners.Models.BusinessLicenseOwners> businessLicenseOwners = (List<LicenseOwners.Models.BusinessLicenseOwners>) ViewData["BusinessLicenseOwners"];
 }
 
     <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
+        <h1 class="display-4">List of Business Owners</h1>
+        <table border="1">
+            <tr>
+                <td><strong>Account Number</strong></td>
+                <td><strong>License Number</strong></td>
+                <td><strong>Business Name</strong></td>
+                <td><strong>City</strong></td>
+                <td><strong>State</strong></td>
+                <td><strong>Business Activity</strong></td>
+                <td><strong>Owner First Name</strong></td>
+                <td><strong>Owner Last Name</strong></td>
+                <td><strong>Owner Title</strong></td>
+            </tr>
+
+
+            @{
+                foreach (LicenseOwners.Models.BusinessLicenseOwners businessLicenseOwner in businessLicenseOwners)
+                {
+                        <tr>
+                            <td>@businessLicenseOwner.AccountNumber</td>
+                            <td>@businessLicenseOwner.LicenseNumber</td>
+                            <td>@businessLicenseOwner.DoingBusinessAsName</td>
+                            <td>@businessLicenseOwner.City</td>
+                            <td>@businessLicenseOwner.State</td>
+                            <td>@businessLicenseOwner.BusinessActivity</td>
+                            <td>@businessLicenseOwner.OwnerFirstName</td>
+                            <td>@businessLicenseOwner.OwnerLastName</td>
+                            <td>@businessLicenseOwner.OwnerTitle</td>
+                            
+                        </tr>
+                }
+            }
+        </table>
         
-
-        <table border="1">
-            <tr>
-                <td>Account Number</td>
-                <td>Business Name</td>
-                <td>Owner First Name</td>
-                <td>Owner Middle Name</td>
-                <td>Owner Last Name</td>
-                <td>Owner Title</td>
-            </tr>
-
-
-            @{
-                foreach (QuickTypeOwners.BusinessOwners businessOwner in businessOwners)
-                {
-                    <tr>
-                        <td>@businessOwner.AccountNumber</td>
-                        <td>@businessOwner.DoingBusinessAsName</td>
-                        <td>@businessOwner.OwnerFirstName</td>
-                        <td>@businessOwner.OwnerMiddleInitial</td>
-                        <td>@businessOwner.OwnerLastName</td>
-                        <td>@businessOwner.OwnerTitle</td>
-                    </tr>
-                }
-            }
-        </table>
-        <!--
-        <table border="1">
-            <tr>
-                <td>License Id</td>
-                <td>Account Number</td>
-                <td>Owner First Name</td>
-                <td>Owner Middle Name</td>
-                <td>Owner Last Name</td>
-                <td>Owner Title</td>
-            </tr>
-
-
-            @{
-                foreach (QuickTypeLicense.BusinessLicenses businessLicense in businessLicenses)
-                {
-                   
-                }
-            }
-        </table>
 
     </div>
