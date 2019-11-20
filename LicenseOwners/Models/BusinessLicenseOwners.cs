@@ -14,5 +14,28 @@ namespace LicenseOwners.Models
         public string BusinessActivity { get; set; }
 
         public string City { get; set; }
+
+        public string CheckCity
+        {
+            get
+            {
+                if (!string.IsNullOrEmpty(City))
+                {
+                    return City;
+                }
+                return "N/A";
+            }
+        }
+        public string CheckOwnerFirstName
+        {
+            get
+            {
+                if (!string.IsNullOrEmpty(OwnerFirstName))
+                {
+                    return OwnerFirstName;
+                }
+                return "N/A";
+            }
+        }
     }
 }

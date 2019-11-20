@@ -1,5 +1,5 @@
 ﻿
-namespace QuickTypeOwners
+namespace OwnersDetails
 {
     using System;
     using System.Globalization;
@@ -30,12 +30,12 @@ namespace QuickTypeOwners
 
     public partial class BusinessOwners
     {
-        public static BusinessOwners[] FromJson(string json) => JsonConvert.DeserializeObject<BusinessOwners[]>(json, QuickTypeOwners.Converter.Settings);
+        public static BusinessOwners[] FromJson(string json) => JsonConvert.DeserializeObject<BusinessOwners[]>(json, OwnersDetails.Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this BusinessOwners[] self) => JsonConvert.SerializeObject(self, QuickTypeOwners.Converter.Settings);
+        public static string ToJson(this BusinessOwners[] self) => JsonConvert.SerializeObject(self, OwnersDetails.Converter.Settings);
     }
 
     internal static class Converter
