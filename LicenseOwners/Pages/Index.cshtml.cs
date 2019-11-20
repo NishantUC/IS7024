@@ -13,20 +13,26 @@ namespace LicenseOwners.Pages
         public void OnGet()
         {
             List<BusinessLicenseOwners> businessLicenseOwnersList = new List<BusinessLicenseOwners>();
+
+            BusinessLicenses[] businessLicenses = BusinessLicenses.FromJson(getJSONData("https://data.cityofchicago.org/resource/r5kz-chrr.json?$where=account_number%20<%2051"));
+            ViewData["BusinessLicenses"] = businessLicenses;
+
+            BusinessOwners[] businessOwners = BusinessOwners.FromJson(getJSONData("https://data.cityofchicago.org/resource/ezma-pppn.json?$where=account_number%20<%2051"));
+            ViewData["BusinessOwners"] = businessOwners;
+
+            LicenseDetails(businessLicenses, businessOwners, businessLicenseOwnersList);
+
+        }
+        public void LicenseDetails(BusinessLicenses[] businessLicenses, BusinessOwners[] businessOwners, List<BusinessLicenseOwners> businessLicenseOwnersList)
+        {
             BusinessLicenseOwners businessLicenseOwner = null;
-           
-                BusinessLicenses[] businessLicenses = BusinessLicenses.FromJson(getJSONData("https://data.cityofchicago.org/resource/r5kz-chrr.json?$where=account_number%20<%2051"));
-                ViewData["BusinessLicenses"] = businessLicenses;
-
-                BusinessOwners[] businessOwners = BusinessOwners.FromJson(getJSONData("https://data.cityofchicago.org/resource/ezma-pppn.json?$where=account_number%20<%2051"));
-                ViewData["BusinessOwners"] = businessOwners;
-           
-
             IDictionary<string, BusinessLicenses> licenseDictionary = new Dictionary<string, BusinessLicenses>();
-
+            
             foreach (BusinessLicenses businessLicense in businessLicenses)
             {
-                if (!licenseDictionary.ContainsKey((businessLicense.AccountNumber+"_" +businessLicense.SiteNumber) + "")){
+                if (!licenseDictionary.ContainsKey((businessLicense.AccountNumber+"_" +businessLicense.SiteNumber) + ""))
+                {
+
                     licenseDictionary.Add((businessLicense.AccountNumber+ "_" +businessLicense.SiteNumber) + "", businessLicense);
                 }
                 
@@ -54,7 +60,8 @@ namespace LicenseOwners.Pages
             }
 
             ViewData["BusinessLicenseOwners"] = businessLicenseOwnersList;
-        }
+         }
+    
 
         public string getJSONData(String url)
         {
