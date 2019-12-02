@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Individual.xsl"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Validation.xsd">
+  <!-- All payload data belongs here -->
+  <user>
+    <firstname>Nishant</firstname>
+    <lastname>Prabhudesai</lastname>
+    <bearcatid>M13472111</bearcatid>
+    <favoriteshortcut>ALT + TAB</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Shiwani</firstname>
+    <lastname>Kulkarni</lastname>
+    <bearcatid>M98765431</bearcatid>
+    <favoriteshortcut>ALT + TAB</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Bhuwaneshwari</firstname>
+    <lastname>Iyer</lastname>
+    <bearcatid>M12345678</bearcatid>
+    <favoriteshortcut>CTRL+C</favoriteshortcut>
+  </user>
+</users>

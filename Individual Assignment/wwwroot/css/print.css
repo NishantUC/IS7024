@@ -1,0 +1,29 @@
+﻿
+.career th,
+.career td {
+    background-color: blanchedalmond;
+}
+
+table th, td {
+    border: 1px solid black;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.shortcuts th,
+.shortcuts td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+.shortcuts tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

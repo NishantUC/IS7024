@@ -1,0 +1,31 @@
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.deps.json
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.runtimeconfig.json
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.runtimeconfig.dev.json
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.dll
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.csprojAssemblyReference.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.csproj.CoreCompileInputs.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.RazorAssemblyInfo.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.RazorAssemblyInfo.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.AssemblyInfoInputs.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.AssemblyInfo.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.TagHelpers.input.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.TagHelpers.output.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.RazorCoreGenerate.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\Error.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\Index.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.RazorTargetAssemblyInfo.cache
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.RazorTargetAssemblyInfo.cs
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.pdb
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.Views.dll
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\bin\Debug\netcoreapp2.2\Individual Assignment.Views.pdb
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.Views.pdb
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.dll
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.pdb
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Individual Assignment.csproj.CopyComplete
+C:\Users\prabh\Documents\GitHub\IS7024\Individual Assignment\obj\Debug\netcoreapp2.2\Razor\Pages\HomePage.g.cshtml.cs
