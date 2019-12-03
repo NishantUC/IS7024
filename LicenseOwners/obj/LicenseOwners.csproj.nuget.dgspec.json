@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj": {}
+    "C:\\Users\\bhuvi iyer\\source\\repos\\bhuviiyer\\IS7012 - Sreejith\\IS7024\\LicenseOwners\\LicenseOwners.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj": {
+    "C:\\Users\\bhuvi iyer\\source\\repos\\bhuviiyer\\IS7012 - Sreejith\\IS7024\\LicenseOwners\\LicenseOwners.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
+        "projectUniqueName": "C:\\Users\\bhuvi iyer\\source\\repos\\bhuviiyer\\IS7012 - Sreejith\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
         "projectName": "LicenseOwners",
-        "projectPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
-        "packagesPath": "C:\\Users\\prabh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\obj\\",
+        "projectPath": "C:\\Users\\bhuvi iyer\\source\\repos\\bhuviiyer\\IS7012 - Sreejith\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
+        "packagesPath": "C:\\Users\\bhuvi iyer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bhuvi iyer\\source\\repos\\bhuviiyer\\IS7012 - Sreejith\\IS7024\\LicenseOwners\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\prabh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bhuvi iyer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

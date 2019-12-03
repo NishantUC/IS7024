@@ -58,3 +58,33 @@ C:\Users\prabh\Documents\GitHub\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Lic
 C:\Users\prabh\Documents\GitHub\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.dll
 C:\Users\prabh\Documents\GitHub\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.pdb
 C:\Users\prabh\Documents\GitHub\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.csproj.CopyComplete
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.deps.json
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.runtimeconfig.json
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.runtimeconfig.dev.json
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.dll
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.pdb
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.Views.dll
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\bin\Debug\netcoreapp2.2\LicenseOwners.Views.pdb
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.csprojAssemblyReference.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.csproj.CoreCompileInputs.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.RazorAssemblyInfo.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.RazorAssemblyInfo.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.AssemblyInfoInputs.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.AssemblyInfo.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.TagHelpers.input.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.TagHelpers.output.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.RazorCoreGenerate.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Error.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Index.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.RazorTargetAssemblyInfo.cache
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.RazorTargetAssemblyInfo.cs
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.Views.pdb
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.dll
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.pdb
+C:\Users\bhuvi iyer\source\repos\bhuviiyer\IS7012 - Sreejith\IS7024\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.csproj.CopyComplete

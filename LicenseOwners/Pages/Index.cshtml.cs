@@ -14,6 +14,9 @@ namespace LicenseOwners.Pages
         {
             List<BusinessLicenseOwners> businessLicenseOwnersList = new List<BusinessLicenseOwners>();
             BusinessLicenseOwners businessLicenseOwner = null;
+
+
+
            
                 BusinessLicenses[] businessLicenses = BusinessLicenses.FromJson(getJSONData("https://data.cityofchicago.org/resource/r5kz-chrr.json?$where=account_number%20<%2051"));
                 ViewData["BusinessLicenses"] = businessLicenses;
