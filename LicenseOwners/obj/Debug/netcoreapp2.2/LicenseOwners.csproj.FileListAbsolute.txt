@@ -87,3 +87,5 @@ C:\Users\Shivani\Source\Repos\IS70242\LicenseOwners\obj\Debug\netcoreapp2.2\Lice
 C:\Users\Shivani\Source\Repos\IS70242\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.pdb
 C:\Users\Shivani\Source\Repos\IS70242\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.csproj.CopyComplete
 C:\Users\Shivani\Source\Repos\IS70242\LicenseOwners\obj\Debug\netcoreapp2.2\LicenseOwners.csprojAssemblyReference.cache
+C:\Users\Shivani\Source\Repos\IS70242\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\Cafe.g.cshtml.cs
+C:\Users\Shivani\source\repos\IS70242\LicenseOwners\obj\Debug\netcoreapp2.2\Razor\Pages\OwnnerList.g.cshtml.cs

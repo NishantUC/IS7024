@@ -1,0 +1,49 @@
+﻿@page
+@model LicenseOwners.Pages.OwnnerListModel
+@{
+    ViewData["Title"] = "OwnnerList";
+    List<LicenseOwners.Models.BusinessLicenseOwners> businessLicenseOwners = (List<LicenseOwners.Models.BusinessLicenseOwners>)ViewData["BusinessLicenseOwners"];
+
+}
+
+<link rel="stylesheet" href="~/css/Style.css" />
+
+<head>
+</head>
+<body style="background-image: url('https://c4.wallpaperflare.com/wallpaper/92/36/969/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg'); background-size: cover;">
+    <div class="text-center">
+        <h1 class="display-4" id="head1">Entire Business Owners List</h1>
+        <table id="finaltab" class="table-bordered table-striped" border="1">
+            <thead style="background-color: lightgrey;">
+                <tr>
+                    <th><strong>Account Number</strong></th>
+                    <th><strong>License Number</strong></th>
+                    <th><strong>Business Name</strong></th>
+                    <th><strong>City</strong></th>
+                    <th><strong>State</strong></th>
+                    <th><strong>Business Activity</strong></th>
+                    <th><strong>Owner First Name</strong></th>
+                    <th><strong>Owner Last Name</strong></th>
+                    <th><strong>Owner Title</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (LicenseOwners.Models.BusinessLicenseOwners businessLicenseOwner in businessLicenseOwners)
+                    {
+                        <tr>
+                            <td>@businessLicenseOwner.AccountNumber</td>
+                            <td>@businessLicenseOwner.LicenseNumber</td>
+                            <td>@businessLicenseOwner.DoingBusinessAsName</td>
+                            <td>@businessLicenseOwner.City</td>
+                            <td>@businessLicenseOwner.State</td>
+                            <td>@businessLicenseOwner.BusinessActivity</td>
+                            <td>@businessLicenseOwner.OwnerFirstName</td>
+                            <td>@businessLicenseOwner.OwnerLastName</td>
+                            <td>@businessLicenseOwner.OwnerTitle</td>
+                        </tr>
+                    }
+                }
+        </table>
+    </div>
+</body>

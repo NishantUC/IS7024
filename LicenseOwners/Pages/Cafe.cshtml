@@ -1,0 +1,45 @@
+﻿@page
+@model LicenseOwners.Pages.CafeModel
+@{
+    ViewData["Title"] = "Cafe";
+    LicenseOwners.Models.Cafe[] cafes = (LicenseOwners.Models.Cafe[])ViewData["cafe"];
+}
+
+<link rel="stylesheet" href="~/css/Style.css" />
+
+<head>
+
+</head>
+<body style="background-image: url('https://c4.wallpaperflare.com/wallpaper/92/36/969/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg'); background-size: cover;">
+
+    <div class="text-center">
+        <h1 class="display-4" id="head1">List of Cafes</h1>
+        <table align="center" id="finaltab" class="table-bordered table-striped" border="1">
+            <thead style="background-color: lightgrey;">
+                <tr>
+                    <th><strong>Account Number</strong></th>
+                    <th><strong>Owner First Name</strong></th>
+                    <th><strong>Owner Last Name</strong></th>
+                    <th><strong>Owner Title</strong></th>
+                    <th><strong>Doing Business As Name</strong></th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (LicenseOwners.Models.Cafe businessLicenseOwner in cafes)
+                    {
+                        <tr>
+                            <td>@businessLicenseOwner.AccountNumber</td>
+                            <td>@businessLicenseOwner.OwnerFirstName</td>
+                            <td>@businessLicenseOwner.OwnerLastName</td>
+                            <td>@businessLicenseOwner.OwnerTitle</td>
+                            <td>@businessLicenseOwner.DoingBusinessAsName</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+
