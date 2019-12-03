@@ -12079,23 +12079,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\prabh\\.nuget\\packages\\": {},
+    "C:\\Users\\Shivani\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
+      "projectUniqueName": "C:\\Users\\Shivani\\Source\\Repos\\IS70242\\LicenseOwners\\LicenseOwners.csproj",
       "projectName": "LicenseOwners",
-      "projectPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\LicenseOwners.csproj",
-      "packagesPath": "C:\\Users\\prabh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prabh\\Documents\\GitHub\\IS7024\\LicenseOwners\\obj\\",
+      "projectPath": "C:\\Users\\Shivani\\Source\\Repos\\IS70242\\LicenseOwners\\LicenseOwners.csproj",
+      "packagesPath": "C:\\Users\\Shivani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shivani\\Source\\Repos\\IS70242\\LicenseOwners\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\prabh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shivani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
