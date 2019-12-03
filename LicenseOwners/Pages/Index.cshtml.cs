@@ -18,7 +18,6 @@ namespace LicenseOwners.Pages
         List<BusinessLicenseOwners> businessLicenseOwnersList = new List<BusinessLicenseOwners>();
         BusinessLicenseOwners businessLicenseOwner = null;
         IDictionary<string, BusinessLicenses> licenseDictionary = null;
-        
 
         public bool DataFetched { get; set; }
 
@@ -66,8 +65,7 @@ namespace LicenseOwners.Pages
                     {
                         if (license.Value.BusinessActivity!=null &&  license.Value.BusinessActivity.Trim()!="")
                         {
-                            BusinessActivitySet.Add(license.Value.BusinessActivity);
-                            
+                            BusinessActivitySet.Add(license.Value.BusinessActivity);   
                         }
                         
                         businessLicenseOwner = new BusinessLicenseOwners();
@@ -82,8 +80,7 @@ namespace LicenseOwners.Pages
                         businessLicenseOwner.DoingBusinessAsName = license.Value.DoingBusinessAsName;
                         businessLicenseOwnersList.Add(businessLicenseOwner);
                     }
-                }
-                
+                } 
             }
             
           //  HttpContext.Session.Set("BusinessActivitySet", new byte[](BusinessActivitySet)); 
@@ -100,7 +97,6 @@ namespace LicenseOwners.Pages
                     {
                         licenseDictionary.Add((businessLicense.AccountNumber + "_" + businessLicense.SiteNumber) + "", businessLicense);
                     }
-
                 }
 
                 foreach (BusinessOwners owners in businessOwners)
@@ -117,15 +113,12 @@ namespace LicenseOwners.Pages
                     }
 
                 }
-                ViewData["BusinessActivitySet"] = BusinessActivitySet;
-                
+                ViewData["BusinessActivitySet"] = BusinessActivitySet; 
             }
             else
             {
                 ViewData["BusinessActivitySet"] = BusinessActivitySet;
             }
-
-            
         }
 
         public void OnGet()
@@ -138,7 +131,6 @@ namespace LicenseOwners.Pages
                 businessOwners = BusinessOwners.FromJson(getJSONData("https://data.cityofchicago.org/resource/ezma-pppn.json?$where=account_number%20<%2051"));
                 ViewData["BusinessOwners"] = businessOwners;
                 searchJSON();
-            
         }
 
         public string getJSONData(String url)

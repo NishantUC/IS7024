@@ -3,80 +3,80 @@
 @{
     ViewData["Title"] = "Home page";
     List<LicenseOwners.Models.BusinessLicenseOwners> businessLicenseOwners = (List<LicenseOwners.Models.BusinessLicenseOwners>)ViewData["BusinessLicenseOwners"];
-    HashSet<String> BusinessActivitySet = (HashSet<String>) ViewData["BusinessActivitySet"];
-   
+    HashSet<String> BusinessActivitySet = (HashSet<String>)ViewData["BusinessActivitySet"];
 }
 
+<link rel="stylesheet" href="~/css/Style.css" />
 
+<head>
 
+</head>
+<body style="background-image: url('https://c4.wallpaperflare.com/wallpaper/92/36/969/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg'); background-size: cover;">
     <div>
         <form method="post">
             <div class="row">
-                <div class="form-group col-md-3">
-                    <label for="Activity">Business Activity</label>
-                    <select name="Activity" class="form-control">
+
+                <div class="col-md-4">
+                    <label for="Activity" style="color:lightsteelblue;">Business Activity</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <select class="form-control" name="Activity">
                         @{
-                        foreach (var activity in BusinessActivitySet)
-                        {
-                           
-                            <option value="@activity">@activity</option>
+                            foreach (var activity in BusinessActivitySet)
+                            {
+                                <option value="@activity">@activity</option>
                             }
-                        
                         }
                     </select>
                 </div>
-
-
-                <input class="btn-primary" id="submitButton" type="submit" value="Search">
+                <div class="col-md-4">
+                    <input class=" btn btn-primary mb-2" id="submitButton" type="submit" value="Search">
+                </div>
             </div>
         </form>
-
-
-
     </div>
 
 
+    @if (Model.DataFetched)
+    {
+        <div class="text-center">
+            <h1 class="display-4" id="head1">List of Business Owners</h1>
+            <table id="finaltab" class="table-bordered table-striped" border="1">
+                <thead style="background-color: lightgrey;">
+                    <tr>
+                        <th><strong>Account Number</strong></th>
+                        <th><strong>License Number</strong></th>
+                        <th><strong>Business Name</strong></th>
+                        <th><strong>City</strong></th>
+                        <th><strong>State</strong></th>
+                        <th><strong>Business Activity</strong></th>
+                        <th><strong>Owner First Name</strong></th>
+                        <th><strong>Owner Last Name</strong></th>
+                        <th><strong>Owner Title</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (LicenseOwners.Models.BusinessLicenseOwners businessLicenseOwner in businessLicenseOwners)
+                        {
+                            <tr>
+                                <td>@businessLicenseOwner.AccountNumber</td>
+                                <td>@businessLicenseOwner.LicenseNumber</td>
+                                <td>@businessLicenseOwner.DoingBusinessAsName</td>
+                                <td>@businessLicenseOwner.City</td>
+                                <td>@businessLicenseOwner.State</td>
+                                <td>@businessLicenseOwner.BusinessActivity</td>
+                                <td>@businessLicenseOwner.OwnerFirstName</td>
+                                <td>@businessLicenseOwner.OwnerLastName</td>
+                                <td>@businessLicenseOwner.OwnerTitle</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
 
-
-
-@if (Model.DataFetched)
-{
-<div class="text-center">
-    <h1 class="display-4">List of Business Owners</h1>
-    <table border="1">
-        <tr>
-            <td><strong>Account Number</strong></td>
-            <td><strong>License Number</strong></td>
-            <td><strong>Business Name</strong></td>
-            <td><strong>City</strong></td>
-            <td><strong>State</strong></td>
-            <td><strong>Business Activity</strong></td>
-            <td><strong>Owner First Name</strong></td>
-            <td><strong>Owner Last Name</strong></td>
-            <td><strong>Owner Title</strong></td>
-        </tr>
-
-
-        @{
-            foreach (LicenseOwners.Models.BusinessLicenseOwners businessLicenseOwner in businessLicenseOwners)
-            {
-            <tr>
-                <td>@businessLicenseOwner.AccountNumber</td>
-                <td>@businessLicenseOwner.LicenseNumber</td>
-                <td>@businessLicenseOwner.DoingBusinessAsName</td>
-                <td>@businessLicenseOwner.City</td>
-                <td>@businessLicenseOwner.State</td>
-                <td>@businessLicenseOwner.BusinessActivity</td>
-                <td>@businessLicenseOwner.OwnerFirstName</td>
-                <td>@businessLicenseOwner.OwnerLastName</td>
-                <td>@businessLicenseOwner.OwnerTitle</td>
-
-            </tr>
-            }
-        }
-    </table>
-
-
-</div>
-}
-
+</body>
